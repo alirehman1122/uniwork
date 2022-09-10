@@ -1,0 +1,37 @@
+body{
+background-color: rgb(240, 164, 64);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    justify-content: end;
+}
+li{
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: azure;
+    border-radius: 20%;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    display: flex;
+   justify-content: center;
+}
+h4{
+    display: flex;
+    justify-content: center;
+}
+div{
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    align-items: center;
+    gap: 10px;
+    
+}
